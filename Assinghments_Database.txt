@@ -1,0 +1,24 @@
+Task : 1
+
+
+1.Select first_name AS EmployeeName FROM employee.
+2.Select first_name,joining_date,salary FROM employee.
+3.Select employee table WHERE first_name LIKE ORDER BY ASC;
+4.Select employee table WHERE salary LIKE ORDER BY DESC;
+5.Select *FROM employee table WHERE first_name '%j%';
+6.Select department join salary max(salary) FROM employeetable ORDER BY salary'DESC' ;
+7.Select employee WHERE first_name,Select Incentive WHERE Incentive_amount >3000;
+
+
+
+
+
+Task : 2
+
+
+
+1. NOT POSSIBLE
+2.Select sname, city from salesperson where comm > 0.12 and city = ‘London;
+3.Select sname, city from salesperson where city in (‘Barcelona’,’London’);
+4.ELECT sname, comm FROM salesperson WHERE comm > 0.10 AND comm < 0.12;
+5.)SELECT CNAME FROM customer WHERE RATING <= 100 OR city = ‘Rome’
